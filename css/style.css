@@ -1,0 +1,352 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+/*Body*/
+
+h1, h2, h3, h4, h5, .navbar, .mainBut {
+    font-family: 'Comfortaa', cursive;
+    color: #FFF;
+}
+
+#homeBG{
+  width: 80%;
+}
+
+.headcol {
+  color: #000;
+}
+.navbar-inverse .navbar-text {
+    color: #9C664E;
+    padding-top: -4px;
+    font-size: 24px;
+}
+.footerfont {
+    font-family: 'Comfortaa', cursive;
+}
+.page-header {
+    color: #000;
+}
+.gallery {
+    margin-top: -100px;
+}
+p.mylogo {
+    color: #9DA89F;
+}
+.onpage {
+    background-color: #ACD59C;
+    color: #FFF;
+}
+.navbar {
+    background-color: #77BF62;
+    position: fixed 100%;
+    height: 65px;
+    border: 0;
+}
+.infographbut, .recommendbut {
+    background-color: #9C664E;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    color: #FFF;
+}
+p {
+    font-family: 'Roboto Slab', serif;
+}
+#resultsbut {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+#results{
+  margin-top:30px;
+  margin-bottom: -20px;
+}
+#headtype, #rest, #results, #descinfo, #descon, #descin, #descopen, #infogdesc, #recinfo, #soundclouddesc, #iheartradiodesc, #googleplaydesc, #appledesc, #primedesc, #spotdesc, #pandesc{
+    display: none;
+}
+.spce {
+  margin-bottom: 30px;
+}
+.recpad {
+    margin-top: 50px;
+}
+.rad {
+    padding-bottom: 120px
+}
+
+.mew {
+  padding-bottom: 20px
+}
+.comm {
+    margin-top: 60px;
+}
+.comme {
+    margin-top: 90px;
+}
+.space {
+  margin-top: 28px;
+}
+#landpage {
+    margin-top: 180px;
+}
+.recsurv {
+    background-image: url("assets/peach-colored-canvas-fabric-texture.jpg");
+    background-repeat: no-repeat;
+    background-size: 780px;
+    background-position: center center;
+
+}
+.bread {
+  width: 250px;
+}
+#rightpearbask {
+    width: 250px;
+}
+#rightpearbask2 {
+    width: 150px;
+
+}
+.abouthead {
+    margin-top: 80px;
+}
+.abouttext {
+    margin-top: 80px;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+}
+h1.contacthead {
+    margin-top: 5px;
+    color: #000;
+}
+body.home {
+    padding-top: 50px;
+    background-image: url("assets/infographic.jpg");
+    background-repeat: no-repeat;
+}
+body.about {
+    background-image: url("assets/backgroundtexture.png");
+    background-repeat: repeat-y;
+}
+h1.about {
+    color: #000000;
+}
+#comment {
+    margin-top: 10px;
+}
+.aboutj {
+    margin-top: 20px;
+}
+#surv {
+    margin-top: 30px;
+    margin-bottom: 234px;
+}
+.aboutimg {
+    margin-top: 150px;
+}
+.bg2 {
+    background-image: url("assets/backgroundtexture.png");
+}
+.bg3 {
+    background-image: url("assets/backgroundtexture2.png");
+}
+btn-link {
+    border-style: solid;
+}
+#jazzfact1, #jazzfact2, #info1937, #bands, #singer {
+  display:none;
+}
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+
+     background-color: #77BF62;
+     border: none;
+   }
+/*.navbar {
+  background-color: #C5E946;
+}*/
+
+.mainBut {
+    padding: 15px 45px 15px 45px;
+    color: #FFF;
+    opacity: 0.8;
+    background: transparent;
+    border: solid;
+    margin-top: 20px;
+}
+
+.surveybegin {
+  padding: 15px 45px 15px 45px;
+  color: #000;
+  opacity: 0.8;
+  background: transparent;
+  border: solid;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+.options {
+  padding: 15px 45px 15px 45px;
+  color: #000;
+  opacity: 0.8;
+  background: transparent;
+  border: solid;
+  border-radius: 10px;
+}
+.optionss {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  padding: 5px 15px 5px 15px;
+  color: #000;
+  opacity: 0.8;
+  background: transparent;
+  border: solid;
+  border-radius: 5px;
+}
+/*************RECOMMENDING Activity SVG PAGE INCLUDING ANIMATIONS ***********/
+
+
+@media only screen and (min-width: 320px) {
+  #_1937{
+    padding-top: 40px;
+  }
+  #_1910{
+    padding-top: 40px;
+  }
+    h1 {
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+    .mainBut {
+        padding: 10px 15px 10px 15px;
+        color: #FFF;
+        opacity: 0.8;
+        background: transparent;
+        border: solid;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    body {
+        background-size: 150%;
+    }
+    h1.about {
+        color: #000000;
+        padding-top: 100px;
+    }
+    .rec {
+        margin-top: 16px;
+        user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    .info {
+        user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    .bg2 {
+        background-size: 100%;
+    }
+}
+.newform {
+    padding-top: 100px;
+}
+@media only screen and (min-width: 480px) {
+    h1 {
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+    h1.about {
+        color: #000000;
+        padding-top: 100px;
+    }
+    .mainBut {
+        padding: 15px 25px 15px 25px;
+        color: #FFF;
+        opacity: 0.8;
+        background: transparent;
+        border: solid;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    newform {
+        padding-top: 50px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        color: #FFFFFF;
+        padding-top: 120px;
+    }
+    h1.about {
+        color: #000000;
+    }
+    .mainBut {
+        padding: 15px 50px 15px 50px;
+        color: #FFF;
+        opacity: 0.8;
+        margin-top: 80px;
+        border-radius: 15px;
+    }
+    body {
+        background-size: 100%;
+    }
+    h4 {
+        margin-top: 40px;
+    }
+    .rec {
+        margin-top: 36px;
+    }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .mainBut {
+        padding: 15px 45px 15px 45px;
+        color: #FFF;
+        opacity: 0.8;
+        background: transparent;
+        border: solid;
+        margin-top: 170px;
+    }
+    h1.about {
+        color: #000000;
+    }
+    h1 {
+        color: #FFFFFF;
+        padding-top: 200px;
+    }
+    h4 {
+        margin-top: 100px;
+    }
+    body {
+        background-size: 100%;
+    }
+    .rec {
+        margin-top: 593px;
+    }
+    .recbg {
+        user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    .newform {
+        padding-top: 0px;
+    }
+}

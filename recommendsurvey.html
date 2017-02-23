@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>The Right Pear</title>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top c1" role="navigation">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="index.html"><img src="http://35mmspace.com/wp-content/uploads/2016/05/logo-1-e1462929678885.png" class="img-responsive"></a>
+                <p class="navbar-text mylogo">The Right Pear</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navBar">
+                <ul class="nav navbar-nav navbar-right navCol">
+                    <li>
+                        <a href="index.html"><h5>Home</h5></a>
+                    </li>
+                    <li>
+                        <a href="about.html"><h5>About</h5></a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><h5>Contact</h5></a>
+                    </li>
+                    <li>
+                        <a href="gallery.html"><h5>Gallery</h5></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Heading Content-->
+    <div class="container">
+        <div class="row recsurv" id="recommends">
+            <div class="row recpad">
+                <div class="col-md-12 text-center">
+                    <h3 class="headcol">Choose your Activity</h3>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-12 text-center">
+                        <img class="bread space" src="assets/breadcrumbactivity.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row space">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3">
+                    <img class="mew" src="assets/commute.png">
+                    <img class="mew" src="assets/monitor.png">
+                    <img class="mew" src="assets/fitness.png">
+                    <img class="mew" src="assets/gaming.png">
+                </div>
+                <div class="col-md-6 col-sm-3 col-xs-3 radio">
+                    <form role="form" id="activity">
+                        <label class="radio comm rad">
+                            <input type="radio" name="optradio" id="commute">Commute
+                        </label>
+                        <label class="radio rad">
+                            <input type="radio" name="optradio" id="monitor">Monitor
+                        </label>
+                        <label class="radio rad">
+                            <input type="radio" name="optradio" id="fitness">Fitness
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="optradio" id="gaming">Gaming
+                        </label>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <a href="landingrec.html">
+                        <button class="btn-success options">back</button>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <button class="btn-success options" id='reset'>reset</button>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                    <button class="btn-success options" id='fnext'>next</button>
+                </div>
+            </div>
+        </div>
+        <!-- THIS IS WHERE TYPE OF HEADPHONES START  -->
+
+        <div class="row recsurv" id="headtype">
+            <div class="row recpad">
+                <div class="col-md-12 text-center">
+                    <h3 class="headcol">Choose a Headphone Type</h3>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-12 text-center">
+                        <img class="bread space" src="assets/breadcrumbsheadtype.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row space">
+                <div class="col-md-2 col-sm-3 col-xs-2">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4">
+                    <img class="mew" src="assets/overear.png">
+                    <img class="mew" src="assets/onear.png">
+                    <img class="mew" src="assets/inear.png">
+                    <img class="mew" src="assets/openback.png">
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3 radio">
+                    <form role="form">
+                        <div class="radio comme rad">
+                            <label>
+                                <input type="radio" name="optradio" id="overear">Over-Ear</label>
+                        </div>
+                        <div class="radio rad">
+                            <label>
+                                <input type="radio" name="optradio" id="onear">On-Ear</label>
+                        </div>
+                        <div class="radio rad">
+                            <label>
+                                <input type="radio" name="optradio" id="inear">In-Ear</label>
+                        </div>
+                        <div class="radio rad">
+                            <label>
+                                <input type="radio" name="optradio" id="openback">Open-Back</label>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-2 radio pado">
+                    <button class="btn-success" name="button" id="overinfo">Over-Ear</button>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12 radio">
+                            <p id="descinfo">Over-ear headphones tend to be the best option to get if you're looking for the most immersive sound experience and don't mind a bigger set of headphones.</p>
+                        </div>
+                        <button class="btn-success" name="button" id="oninfo">On-Ear</button>
+                        <div class="col-md-12 col-sm-12 col-xs-12 radio">
+                            <p id="descon">On-ear headphones have a blend of comfort, style, portability, and relatively high-quality sound — serving as a sort of "one size fits all" for the well-rounded music lover.</p>
+                        </div>
+                        <button class="btn-success" name="button" id="ininfo">In-Ear</button>
+                        <div class="col-md-12 col-sm-12 col-xs-12 radio">
+                            <p id="descin">Great for any situation especially being stealthy, a wealth of options are available</p>
+                        </div>
+                        <button class="btn-success" name="button" id="openinfo">Open-Back</button>
+                        <div class="col-md-12 col-sm-12 col-xs-12 radio">
+                            <p id="descopen">On-ear headphones have a blend of comfort, style, portability, and relatively high-quality sound — serving as a sort of "one size fits all" for the well-rounded music lover.</p>
+                        </div>
+                </div>
+</div>
+                <div class="row comme">
+                  <div class="col-md-2">
+                  </div>
+                    <div class="col-md-3 col-sm-4 col-xs-4">
+                        <button id="backactiv" class="btn-success options">back</button>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-4">
+                        <button class="btn-success options" id='reset1'>reset</button>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-4">
+                        <button class="btn-success options" id='fanext'>next</button>
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                </div>
+
+</div>
+            <!-- THIS IS ENDING, NOT THE RESULTS  -->
+            <div class="row recsurv" id="rest">
+                <div class="row recpad">
+                    <div class="col-md-12 text-center">
+                        <h3 class="headcol">Final Questions</h3>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-12 text-center">
+                            <img class="bread space" src="assets/breadcrumbsfinal.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row space">
+                    <div class="col-md-3 col-sm-3 col-xs-2">
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-xs-2">
+                        <form role="form" id="newcolor">
+                            <p>Desired Color:</p>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optradio" id="black">
+                                    <p>Black/White</p>
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optradio" id="coloured">
+                                    <p>Coloured</p>
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row space">
+                    <div class="col-md-3 col-sm-3 col-xs-2">
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-xs-2">
+                        <div class="form-group" id="duration">
+                            <label for="sel1">
+                                <p>Average Listening Session:</p>
+                            </label>
+                            <select class="form-control" id="time">
+                                <option value="5">less than 1 hour</option>
+                                <option value="10">1-2 hours</option>
+                                <option value="15">3hrs+</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-2">
+                    </div>
+
+                    <div class="col-md-5 col-sm-3 col-xs-3 radio">
+
+                        <div class="form-group" id="spending">
+                            <label for="sel1">
+                                <p>Budget:</p>
+                            </label>
+                            <select class="form-control" id="budgetform">
+                                <option value="6">Under $100</option>
+                                <option value="12">$100-$200</option>
+                                <option value="18">$200+</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-2" id="resultsbut">
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-4">
+                        <button id="backactivate" class="btn-success options">back</button>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-4">
+                        <button class="btn-success options" id='reset2'>reset</button>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-4">
+                        <button class="btn-success options" id='surveyfin'>Calculate</button>
+                    </div>
+                </div>
+            </div>
+            <!-- RESULTS PAGE -->
+            <div class="row recsurv rad" id="results">
+                <div class="row recpad">
+                    <div class="col-md-12 text-center">
+                        <h3 class="headcol">Choose a Headphone Type</h3>
+                    </div>
+                </div>
+                <div class="row recpad">
+                    <div class="col-md-12 text-center">
+                        <img src="assets/fruitbask.png" alt="rightpearbasket" id="rightpearbask2">
+                    </div>
+                </div>
+                <div class="row recpad">
+                    <div class="col-md-12 radio text-center">
+                        <div id="newerimg" class="spce">
+                        </div>
+                    </div>
+                </div>
+                <div class="row recpad">
+                    <div class="col-md-12 radio text-center">
+                        <div id="prevchoice" class="spce">
+                        </div>
+                    </div>
+                </div>
+                <div class="row recpad rad">
+                    <div class="col-md-6 radio text-center spce">
+                        <button class="btn-success options" id='reset3'>
+                            <p>Reset</p>
+                        </button>
+                    </div>
+                    <div class="col-md-6 radio text-center spce">
+                        <a href="index.html">
+                            <button class="btn-success options" name="button">
+                                <p>Home</p>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row-fluid footer">
+                <div class="span12">
+                    <div class="span8">
+                        <a href="index.html" class="footerfont">Home</a>
+                        <a href="about.html" class="footerfont">About</a>
+                        <a href="contact.html" class="footerfont">Contact</a>
+                        <a href="gallery.html" class="footerfont">Gallery</a>
+                    </div>
+                    <div class="span4">
+                        <p class="muted pull-right">© 2013 Company Name. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/js.js"></script>
+</body>
+
+</html>

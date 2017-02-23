@@ -1,0 +1,76 @@
+@keyframes example {
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: 70px;
+    }
+    35%{
+      right: 10px;
+    }
+    40% {
+      left: 0px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+@keyframes change {
+    from {fill: red;}
+    to {fill: yellow;}
+}
+@keyframes changeon {
+    from {fill: #003056;}
+    to {fill: #EEE49A;}
+}
+@keyframes floating {
+    0% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+@keyframes spin {
+       from {
+           transform: rotate(0deg);
+       } to {
+           transform: rotate(360deg);
+       }
+   }
+
+#begin {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 8s;
+    animation-iteration-count: 6;
+}
+
+#jazzfact1 {
+  animation: floating 1.5s infinite;
+}
+
+#jazzfact2{
+  animation: floating 2.0s infinite;
+}
+
+#props {
+  animation: spin 1.5 infinite;
+}
+
+#bands-2 {
+  animation: change 4s infinite;
+}
+
+#singer-2  {
+  animation: change 3.5s infinite;
+}
+
+#soundc, #googlep, #applem, #amazonp, #spotify, #pandora, #heart {
+  animation: changeon 3.5s infinite;
+}
