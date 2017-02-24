@@ -4,11 +4,20 @@
 
 h1, h2, h3, h4, h5, .navbar, .mainBut {
     font-family: 'Comfortaa', cursive;
-    color: #FFF;
+    color: #fff;
+}
+
+.botBG{
+  background-color: #FFF;
+  width: 100%;
 }
 
 #homeBG{
-  width: 80%;
+  width: 100%;
+  z-index: -100;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .headcol {
@@ -144,9 +153,11 @@ h1.about {
 }
 .bg2 {
     background-image: url("assets/backgroundtexture.png");
+
 }
 .bg3 {
     background-image: url("assets/backgroundtexture2.png");
+
 }
 btn-link {
     border-style: solid;
@@ -171,7 +182,7 @@ btn-link {
 
 .mainBut {
     padding: 15px 45px 15px 45px;
-    color: #FFF;
+    color: #000;
     opacity: 0.8;
     background: transparent;
     border: solid;
@@ -217,7 +228,6 @@ btn-link {
     padding-top: 40px;
   }
     h1 {
-        color: #FFFFFF;
         padding-top: 20px;
     }
     .mainBut {
@@ -260,9 +270,11 @@ btn-link {
 .newform {
     padding-top: 100px;
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 360px) {
+  .cto{
+    font-size: 28px;
+  }
     h1 {
-        color: #FFFFFF;
         padding-top: 20px;
     }
     h1.about {
@@ -287,9 +299,12 @@ btn-link {
 
 @media only screen and (min-width: 768px) {
     h1 {
-        color: #FFFFFF;
         padding-top: 120px;
     }
+    .cto{
+      font-size: 50px;
+    }
+
     h1.about {
         color: #000000;
     }
@@ -322,11 +337,15 @@ btn-link {
         border: solid;
         margin-top: 170px;
     }
+
+    .cto{
+      font-size: 60px;
+    }
+
     h1.about {
         color: #000000;
     }
     h1 {
-        color: #FFFFFF;
         padding-top: 200px;
     }
     h4 {
