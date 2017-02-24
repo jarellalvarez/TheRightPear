@@ -73,6 +73,11 @@ p {
 .spce {
   margin-bottom: 30px;
 }
+
+.homespace{
+  margin-bottom: 20px;
+}
+
 .recpad {
     margin-top: 50px;
 }
@@ -246,8 +251,12 @@ btn-link {
         color: #000000;
         padding-top: 100px;
     }
+  .startPage{
+    margin-bottom: 26px;
+  }
+
     .rec {
-        margin-top: 16px;
+        margin-top: 10px;
         user-drag: none;
         user-select: none;
         -moz-user-select: none;
@@ -315,6 +324,10 @@ btn-link {
         margin-top: 80px;
         border-radius: 15px;
     }
+
+    .startPage{
+      margin-bottom: 150px;
+    }
     body {
         background-size: 100%;
     }
@@ -341,7 +354,9 @@ btn-link {
     .cto{
       font-size: 60px;
     }
-
+    .startPage{
+      margin-bottom: 360px;
+    }
     h1.about {
         color: #000000;
     }
